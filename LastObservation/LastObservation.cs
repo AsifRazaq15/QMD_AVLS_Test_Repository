@@ -44,6 +44,7 @@ internal class Program
 		ILog logger = LogManager.GetLogger(typeof(Program));
 		try
 		{
+			//add new changes on this file
 			JArray array = new JArray();
 			Tuple<string, string> lastObservationData = GetLastObservationData();
 			if (lastObservationData.Item2 == "OK")
